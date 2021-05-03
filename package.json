@@ -1,0 +1,27 @@
+{
+  "name": "-casa-de-cambio",
+  "version": "1.0.0",
+  "description": "web de consulta de tipo de cambios",
+  "main": "index.html",
+  "scripts": {
+    "cypress-dev": "cypress-open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Castro-D/-Casa-de-cambio.git"
+  },
+  "author": "Diego Castro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Castro-D/-Casa-de-cambio/issues"
+  },
+  "homepage": "https://github.com/Castro-D/-Casa-de-cambio#readme",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.5",
+    "cypress": "^6.8.0"
+  }
+}

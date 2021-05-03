@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Casa de cambio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class='container'>
+        <div class='row justify-content-center mt-2'>
+            <h1 class="color-azul"><strong>Casa de cambio</strong></h1>
+        </div>
+        <div class='row justify-content-center mb-2'>
+            <label for="bases" class="color-azul"><strong>Moneda</strong></label>
+            <select id="bases" name="bases">
+                <option>EUR</option>
+                <option>GBP</option>
+                <option>HKD</option>
+                <option>IDR</option>
+                <option>ILS</option>
+                <option>DKK</option>
+                <option>INR</option>
+                <option>CHF</option>
+                <option>MXN</option>
+                <option>CZK</option>
+                <option>SGD</option>
+                <option>THB</option>
+                <option>HRK</option>
+                <option>MYR</option>
+                <option>NOK</option>
+                <option>CNY</option>
+                <option>BGN</option>
+                <option>PHP</option>
+                <option>SEK</option>
+                <option>PLN</option>
+                <option>ZAR</option>
+                <option>CAD</option>
+                <option>ISK</option>
+                <option>BRL</option>
+                <option>RON</option>
+                <option>NZD</option>
+                <option>TRY</option>
+                <option>JPY</option>
+                <option>RUB</option>
+                <option>KRW</option>
+                <option>USD</option>
+                <option>HUF</option>
+                <option>AUD</option>
+            </select>
+        </div>
+        <div class='row justify-content-center mb-2'>
+            <label for="fecha" class="color-azul"><strong>Fecha</strong></label>
+            <input id="fecha" name="fecha" type="date" required />
+        </div>
+        <div class='row justify-content-center mb-2'>
+            <button type="button" class="boton-azul letra-blanca">Buscar</button>
+        </div>
+        <table class='table row justify-content-center mt-2 table-bordered'>
+            <tr class="color-azul">
+                <th><strong>Moneda</strong></th>
+                <th><strong>Valor</strong></th>
+            </tr>
+        </table>
+    </div>
+    <script type='text/javascript' src='./node_modules/jquery/dist/jquery.min.js'></script>
+    <script src="main.js"></script>
+</body>
+</html>
