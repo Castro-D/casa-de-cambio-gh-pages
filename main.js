@@ -1,4 +1,5 @@
 /// <reference types='jquery' />
+import $ from "jquery";
 
 let $table = $('table');
 const $inputFecha = document.querySelector('#fecha');
